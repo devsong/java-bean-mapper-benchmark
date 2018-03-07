@@ -12,7 +12,27 @@ I used five library for compare which are:
 
 And of course there is good old Setter-Getter. 
 
-## Result of the benchmark for 100.000 iterations of simple object mapping:
+### My models:
+
+```
+public class MySimpleDto {
+
+	private int id;
+	private String name;
+	private String surname;
+	private int age;
+}
+
+public class MySimpleResponse {
+
+	private int id;
+	private String name;
+	private String surname;
+	private int age;
+}
+```
+
+### Result of the benchmark for 100.000 iterations of simple object mapping:
 
 ```
 Benchmark                      Mode  Cnt    Score      Error  Units
