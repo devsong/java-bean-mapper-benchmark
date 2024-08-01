@@ -6,12 +6,9 @@ import java.io.IOException;
 
 /**
  * Hello world!
- *
  */
-public class App 
-{
-    public static void main( String[] args ) throws IOException, RunnerException {
-
+public class App {
+    public static void main(String[] args) throws IOException, RunnerException {
         org.openjdk.jmh.Main.main(args);
     }
 }

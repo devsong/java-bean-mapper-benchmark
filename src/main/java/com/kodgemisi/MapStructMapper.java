@@ -9,4 +9,6 @@ public interface MapStructMapper {
     MapStructMapper INSTANCE = Mappers.getMapper(MapStructMapper.class);
 
     MySimpleResponse convertTo(MySimpleDto dto);
+
+    OrderResponse convertTo(OrderDto orderDto);
 }
